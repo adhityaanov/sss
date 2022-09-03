@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        var game=document.getElementById('game')
+        for(let i=10; i>0; i--){
+            setTimeout(function(){
+                game.innerText=i
+            if(i<=10){
+                console.log(i)}
+                else{
+                console.log('happy independence day')
+                game.innerText="happy independence day"
+            }
+
+            },1000*i)
+
+        }
+    </script>
+</body>
+</html>
